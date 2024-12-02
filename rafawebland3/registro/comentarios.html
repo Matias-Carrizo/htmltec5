@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="comentarios.css">
+    <title>Clase 21 de octubre</title>
+</head>
+<body>
+    <h2>Envía tu comentario</h2>
+    <form action="/comentarios" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre" required>
+        
+        <label for="comentario">Comentario:</label>
+        <textarea id="comentario" name="comentario" rows="5" placeholder="Escribe tu comentario" required>
+        </textarea>
+
+        <button type="submit">Enviar Comentario</button>
+    </form>
+</body>
+</html>
