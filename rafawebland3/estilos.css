@@ -1,0 +1,26 @@
+img {
+    border:3px solid;
+    border-radius: 5%;
+    border-color: rgb(160, 118, 66);
+    height: 50%;
+    width: 50%;
+}
+body {
+    background-color: rgb(244, 222, 188);
+}
+h1 {
+    background-color: rgb(70, 52, 31);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    padding: 20px 200px;
+    text-align: center;
+}
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(48, 38, 26);
+}
+.link {
+    font-size: 200%;
+    background-color: rgb(201, 168, 127);
+    border-radius: 8px;
+}
